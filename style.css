@@ -61,4 +61,16 @@ input, button {
 		float: right;
 	}
 	
-	
+	#description {
+		width: 50%;
+	}
+
+	.task_container #description, .task_container button {
+		display: none;
+		}
+
+.task_container a{
+			display: inline-block;
+			margin: 5px 5px 0 0;
+		}
+

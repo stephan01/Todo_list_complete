@@ -69,7 +69,7 @@ if (isset($_POST['add_todo'])){
             <div class='task_container'>
                 <p> <?php echo $row['task_description'] ?> </p>
                 <a href="delete.php?del_task= <?php echo $row['task_id'] ?>">Delete</a>
-              
+                <a href="update.php?update_task= <?php echo $row['task_id'] ?>">Update</a>
             </div>
             <?php
         }
